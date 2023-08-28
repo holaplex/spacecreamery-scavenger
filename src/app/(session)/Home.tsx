@@ -44,11 +44,8 @@ export default function Home({ session }: HomeProps) {
     <>
       <img src="/img/hero.png" className="w-36 aspect-square object-cover" />
       <h1 className="text-2xl text-white mt-12 text-center">
-        Collect [n] NFTs to be entered into our raffle for a [prize]!
+      Collect at least 2 NFTs to enter our members-only raffle!
       </h1>
-      <p className="text-gray-300 my-6 text-center">
-        [Rules for collecting NFTs]
-      </p>
       <div className="w-full grid grid-cols-4 gap-4">
         {homePageQuery.loading ? (
           <>
